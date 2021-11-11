@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    
+}
+.container{
+    max-width: 1400px ;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+/* utils */
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    
+
+}
+
+
+
+.relaxed{
+    
+}
+.roses{
+
+}
+.voglia{
+
+}
+.tee{
+
+}
+.stripe{
+
+}
+.maglione{
+
+}
