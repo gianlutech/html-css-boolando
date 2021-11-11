@@ -7,7 +7,7 @@ body{
     
 }
 .container{
-    max-width: 1400px ;
+    width: 1400px ;
     height: 800px;
     margin: 0 auto;
     position: relative;
@@ -15,20 +15,57 @@ body{
 }
 /* utils */
 .card{
-    height: 350px;
+    height: 435px;
     width: 300px;
-    background-color: blue;
+    background-color: white;
     display: inline-block;
     margin: 0 auto;
     position: absolute;
-    
+    background-image: url("../img/1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
+.sale{
+    width: 25px;
+    height: 13px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+}
+.heart{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-top: 6px;
+    padding: 6px;
+    text-align: center;
+}
+.status{
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 13px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    padding-left: 4px;
+}
 
 
 .relaxed{
-    
+    background-image: url(../img/1b.webp);
 }
 .roses{
 
