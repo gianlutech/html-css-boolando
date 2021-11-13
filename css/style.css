@@ -6,79 +6,89 @@
 body{
     
 }
+img{
+    width: 100%;
+}
+/* UTILS */
 .container{
-    width: 1400px ;
-    height: 800px;
-    margin: 0 auto;
+    max-width: 1200px ;
+    margin: 0 auto;    
+}
+.bg-red{
+background-color: red;
+}
+.bg-green{
+background-color: green;
+}
+.text-red{
+    color: red ;
+}
+/* CARD */
+.card{
+display: inline-block;
+width: calc(100% / 3 - 4px);
+padding: 10px;    
+cursor: pointer;
+margin: 30px 0;
+}
+
+.card-image{
     position: relative;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     
 }
-/* utils */
-.card{
-    height: 435px;
-    width: 300px;
-    background-color: white;
-    display: inline-block;
-    margin: 0 auto;
-    position: absolute;
-    background-image: url("../img/1.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+
+
+.card-image .heart{
+position: absolute;
+width: 50px;
+height: 50px;
+background-color: white;
+font-size: 30px;
+text-align: center;
+line-height: 50px;
+top: 10px;
+right: 0;
+}
+.card-image .heart:hover{
+    color: red;
+}
+/* BG */
+.card-badges{
+position: absolute;
+width: 100%;
+bottom: 50px;
 
 }
-
-.sale{
-    width: 25px;
-    height: 13px;
-    background-color: red;
+.card-badges .badges{
     color: white;
-    font-size: 10px;
     font-weight: bold;
-    position: absolute;
-    left: 0;
-    bottom: 10px;
-    text-align: center;
+    padding: 5px 10px;
 }
-.heart{
-    height: 30px;
-    width: 30px;
-    background-color: white;
-    position: absolute;
-    right: 0;
-    top: 10px;
-    padding-top: 6px;
-    padding: 6px;
-    text-align: center;
+#relaxed{
+    background-image: url(../img/1.webp);
 }
-.status{
-    background-color: green;
-    color: white;
-    width: 60px;
-    height: 13px;
-    font-size: 10px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
-    padding-left: 4px;
-}
-
-
-.relaxed{
+#relaxed:hover{
     background-image: url(../img/1b.webp);
+    
 }
 .roses{
-
+    
+   
 }
-.voglia{
 
+.voglia{
+   
 }
 .tee{
-
+    
 }
 .stripe{
-
+    
 }
 .maglione{
-
+    
 }
